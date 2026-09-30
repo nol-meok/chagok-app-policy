@@ -19,5 +19,7 @@
 
 ## 게시
 
-Netlify는 `publish` 브랜치만 배포한다. 지금 `publish`에는 "준비 중" 페이지만 있다.
-빈칸을 채운 `main`을 `publish`에 반영하면(또는 Netlify 운영 브랜치를 `main`으로 바꾸면) 게시된다.
+Netlify는 `publish` 브랜치만 배포한다. `main`을 `publish`에 합치고 push하면 게시된다.
+
+2026-09-30부터 초안을 공개해 두었다(앱 연결 확인용). `_headers`가 모든 페이지에 `X-Robots-Tag: noindex`를 붙여 검색에는 걸리지 않는다.
+공식 게시 때: `[클라우드 사업자]`를 채우고, 판 날짜(`versions.json`, 각 판 상단)를 게시하는 날로 맞추고, `_headers`를 지운다.
